@@ -1,0 +1,33 @@
+# Pothole Detection & Road Damage Analysis
+# Install with: pip install -r requirements.txt
+
+# Core ML
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image processing
+opencv-python>=4.8.0        # use opencv-python-headless on Linux servers
+Pillow>=9.0.0
+numpy>=1.24.0
+
+# Flask web framework
+Flask>=3.0.0
+
+# Data & visualization
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Roboflow (for Colab notebook only)
+roboflow>=1.1.0
+
+# Utilities
+PyYAML>=6.0
+tqdm>=4.65.0
+
+# LangGraph AI Agent
+langgraph>=0.0.20
+langchain>=0.1.0
+langchain-ollama>=0.1.0
+python-dotenv>=1.0.0

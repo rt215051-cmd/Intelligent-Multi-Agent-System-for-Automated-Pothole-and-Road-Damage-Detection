@@ -1,0 +1,24 @@
+hat is pothole detection?"
+"How does the YOLO model work?"
+"What do the severity levels mean?"
+Analysis Questions:
+
+"What should I set my confidence threshold to?"
+"How is the area percentage calculated?"
+"What does the IoU threshold do?"
+Results Questions (after analyzing an image):
+
+"Analyze my detection results"
+"How many high severity potholes were found?"
+"Which potholes should be repaired first?"
+"What is the average confidence score?"
+Maintenance Questions:
+
+"What causes potholes?"
+"How often should roads be inspected?"
+"What are the best repair methods?"
+Technical Questions:
+
+"How can I improve detection accuracy?"
+"What is the difference between YOLOv8 models?"
+"How does the system handle false positives?"

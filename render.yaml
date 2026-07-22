@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: pothole-detection-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: CONF_THRESHOLD
+        value: 0.25
+      - key: IOU_THRESHOLD
+        value: 0.45
+    disk:
+      name: data
+      mountPath: /opt/render/project/uploads
+      sizeGB: 1
