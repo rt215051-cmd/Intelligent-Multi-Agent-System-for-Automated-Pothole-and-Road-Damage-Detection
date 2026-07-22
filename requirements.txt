@@ -13,6 +13,7 @@ numpy>=1.24.0
 
 # Flask web framework
 Flask>=3.0.0
+gunicorn>=21.0.0
 
 # Data & visualization
 pandas>=2.0.0
